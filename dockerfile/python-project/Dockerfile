@@ -6,6 +6,7 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-EXPOSE 3000
+PORT = 3000
+APP_TYPE=Python
 
 CMD ["python", "./main.py"]
