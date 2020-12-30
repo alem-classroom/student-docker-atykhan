@@ -2,4 +2,4 @@
 set -eu
 
 # you code here ....
-docker run -d -p 80:80 nginx:1.19
+docker run -d -p 80:80 --name nginx:1.19 nginx-container/nginx:1.19
