@@ -6,7 +6,7 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-ENV PORT =3000
+EXPOSE 3000
 ENV APT_TYPE = Python
 
 CMD ["python", "./main.py"]
